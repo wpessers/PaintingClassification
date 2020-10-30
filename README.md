@@ -27,6 +27,7 @@ The accuracy graph tells us there might be some overfitting, but overall the alg
 ---
 #### Iteration 2
 For the next version I swapped the ResNet-50 model for the VGG16 pretrained model. I added a dropout layer to try to prevent overfitting.
+
 <img src="https://i.imgur.com/GlSAB8t.png" width=600>
 
 The results looked a little more promising this time around, with a validation accuracy of approximately 90% after some 30 epochs of training. However, one look at the confusion matrices shows us different:
