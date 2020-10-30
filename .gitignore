@@ -1,0 +1,20 @@
+.idea
+venv
+
+# Leave 1 example image in each of the Train and Validation datasets
+paintings/Train/Brueghel/*
+!paintings/Train/Brueghel/painting186732.jpg
+paintings/Train/Mondriaan/*
+!paintings/Train/Mondriaan/painting97.jpg
+paintings/Train/Picasso/*
+!paintings/Train/Picasso/painting196.jpg
+paintings/Train/Rubens/*
+!paintings/Train/Rubens/painting1598.jpg
+paintings/Validation/Brueghel/*
+!paintings/Validation/Brueghel/painting186753.jpg
+paintings/Validation/Mondriaan/*
+!paintings/Validation/Mondriaan/painting38.jpg
+paintings/Validation/Picasso/*
+!paintings/Validation/Picasso/painting1184.jpg
+paintings/Validation/Rubens/*
+!paintings/Validation/Rubens/painting1302.jpg
